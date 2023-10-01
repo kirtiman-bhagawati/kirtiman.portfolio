@@ -3736,12 +3736,12 @@ input[type="button"].btn-block {
       color: rgba(0, 0, 0, 0.9); }
 
 .navbar-dark .navbar-brand {
-  color: #fff; }
+  color: #000000; }
   .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
     color: #fff; }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5); }
+  color: rgba(0, 0, 0, 0.5); }
   .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
     color: rgba(255, 255, 255, 0.75); }
   .navbar-dark .navbar-nav .nav-link.disabled {
@@ -8134,7 +8134,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: #0bbfdc;
+  background: rgb(232, 249, 253, 0.5);
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
@@ -8158,7 +8158,7 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
-  color: white;
+  color: black;
   font-weight: 400; }
 
 .text-primary {
@@ -8185,7 +8185,7 @@ h1, h2, h3, h4, h5,
     margin: 0 auto;
     padding: 0; }
   .ftco-navbar-light .navbar-brand {
-    color: #fff;
+    color: #000000;
     padding-top: .7rem;
     padding-bottom: .7rem; }
     .ftco-navbar-light .navbar-brand:hover, .ftco-navbar-light .navbar-brand:focus {
@@ -8203,7 +8203,7 @@ h1, h2, h3, h4, h5,
     padding-bottom: .7rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: #fff;
+    color: #000000;
     font-weight: 400;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span {
@@ -8526,7 +8526,7 @@ h1, h2, h3, h4, h5,
           z-index: 1; }
         .owl-carousel.home-slider .slider-item .slider-text h1 {
           font-size: 60px;
-          color: #fff;
+          color: #000000;
           line-height: 1.2;
           font-weight: 800; }
           .owl-carousel.home-slider .slider-item .slider-text h1 span {
@@ -8534,7 +8534,7 @@ h1, h2, h3, h4, h5,
             color: #ffbd39; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
-              color: #fff;
+              color: #000000;
               font-size: 50px; } }
           @media (max-width: 767.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
@@ -8544,7 +8544,7 @@ h1, h2, h3, h4, h5,
           font-weight: 400; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h2 {
-              color: #fff; } }
+              color: #000000; } }
         .owl-carousel.home-slider .slider-item .slider-text p {
           color: rgba(0, 0, 0, 0.8);
           font-weight: 400; }
@@ -8646,7 +8646,7 @@ h1, h2, h3, h4, h5,
 
 .slider-text h1 {
   font-size: 48px;
-  color: #fff;
+  color: black;
   line-height: 1.2;
   font-weight: 400; }
   @media (max-width: 991.98px) {
@@ -8753,8 +8753,8 @@ h1, h2, h3, h4, h5,
       color: #fff; }
     .btn.btn-white.btn-outline-white {
       border: 1px solid rgba(255, 255, 255, 0.5) !important;
-      background: transparent !important;
-      color: #fff !important; }
+      background: #000000 !important;
+      color: #ffbd39 !important; }
       .btn.btn-white.btn-outline-white:hover {
         border: 1px solid transparent;
         background: #ffbd39;
@@ -8782,7 +8782,7 @@ h1, h2, h3, h4, h5,
       width: calc(100% - 130px); }
       .ftco-about ul.about-info li span:first-child {
         font-weight: 600;
-        color: #fff;
+        color: #ffbd39;
         width: 130px; }
 
 .ftco-about .counter-wrap .text p {
@@ -9194,7 +9194,7 @@ textarea.form-control {
     top: 0px;
     left: 0;
     font-size: 7vw;
-    color: rgba(255, 255, 255, 0.1);
+    color: rgba(209, 209, 209, 0.2);
     z-index: -1;
     font-weight: 900; }
     .heading-section h1.big.big-2 {
@@ -9392,7 +9392,7 @@ textarea.form-control {
   .contact-section .box .icon {
     width: 100px;
     height: 100px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(209, 209, 209, 0.2);
     margin: 0 auto;
     margin-bottom: 2em;
     -webkit-border-radius: 50%;
@@ -9749,12 +9749,12 @@ textarea.form-control {
       right: 10px;
       z-index: 1;
       border: 10px solid;
-      border-color: transparent transparent transparent #dddddd;
+      border-color: transparent transparent transparent #ffffff;
     }
 
     .experience .timeline .timeline-item.right::before {
       left: 10px;
-      border-color: transparent #dddddd transparent transparent;
+      border-color: transparent #ffffff transparent transparent;
     }
 
     .experience .timeline .timeline-date {
@@ -9783,14 +9783,14 @@ textarea.form-control {
         padding: 30px;
         --background: #ffffff;
         position: relative;
-        border-right: 5px solid #dddddd;
-        box-shadow: 0 0 60px rgba(0, 0, 0, .08);
+        border-right: 5px solid #ffffff;
+        box-shadow: 0 0 60px rgba(0, 0, 0, .1);
         border-radius: 5%;
     }
 
     .experience .timeline .timeline-item.right .timeline-text {
         border-right: none;
-        border-left: 5px solid #dddddd;
+        border-left: 5px solid #ffffff;
     }
 
     .experience .timeline .timeline-text h2 {
